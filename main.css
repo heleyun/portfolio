@@ -13,12 +13,13 @@
   grid-template-columns: 1fr 275px;
   margin: 0 auto;
   width: 100%;
-  max-width: 2000px;
+  max-width: 1600px;
   min-width: 800px;
 }
 body {
   background-color: deepskyblue;
   font-family: "Roboto";
+  overflow:scroll;
 }
 header {
   width: 100%;
@@ -100,4 +101,45 @@ a:hover {
 }
 h2 {
   font-size:2em;
+}
+.gallery {
+  margin: 0 auto;
+  max-width:900px;
+}
+.thumb {
+  float:left;
+  max-width:300px;
+  padding: 1em;
+
+}
+.gallerytitle {
+  text-align:center;
+}
+form {
+  padding: 1em;
+}
+label {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 8em;
+  padding-right: 1em;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+input, textarea {
+  display: block;
+  margin-bottom: 1em;
+  background-color:white;
+  border:2px dotted #00c1ff;
+
+}
+#Submit {
+  margin-left: 8em;
+  border:2px dotted;
+  color:blueviolet;
+  font-weight:bolder;
+  font-size:1em;
+  text-transform:uppercase;
+  letter-spacing:.05em;
 }
