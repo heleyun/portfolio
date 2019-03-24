@@ -32,6 +32,7 @@ header {
   max-width: 878px;
   margin: 1.5em auto;
   filter: hue-rotate(0);
+  transition: filter 1s
 }
 #banner:hover {
   filter: hue-rotate(45deg);
@@ -57,6 +58,8 @@ nav a {
   letter-spacing: 1.4px;
   padding: 0.5em 3em;
   color: black;
+  transition:color 1s;
+  transition: border-bottom 0.5s;
 }
 nav a:hover {
   border-bottom: 2px solid salmon;
@@ -64,6 +67,8 @@ nav a:hover {
 }
 .homebutton {
   color: salmon;
+  transition: color 1s;
+  transition: border-bottom 0.5s;
 }
 .homebutton:hover {
   color: deeppink;
@@ -142,4 +147,36 @@ input, textarea {
   font-size:1em;
   text-transform:uppercase;
   letter-spacing:.05em;
+}
+.thumb2 {
+  margin:0 auto;
+  display:block;
+}
+.des {
+  text-align:center;
+}
+table {
+  border-collapse:collapse; 
+  margin: 0 auto;
+}
+tr {
+  border:solid black 1px;
+
+}
+th, td {
+  padding: 0.7em 1.5em;;
+}
+th {
+  padding-right:2em;
+  color: #6508ff;
+}
+caption {
+  padding:1em 0;
+  font-weight:bold;
+  text-transform:uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+}
+.me {
+  max-width:100%;
 }
